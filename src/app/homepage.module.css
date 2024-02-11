@@ -1,0 +1,15 @@
+.content{
+    display: flex;
+    gap: 50px;
+}
+
+.menuContainer{
+    flex: 2;
+    margin-top: 60px;
+}
+
+@media screen and (max-width: 1024px) {
+    .menuContainer{
+        display: none;
+    }
+}
