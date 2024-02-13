@@ -12,7 +12,11 @@ export const MENU = [
         path: '/about'
     },
     {
-        label: 'Контактые',
+        label: 'Написать',
+        path: '/write'
+    },
+    {
+        label: 'Контакты',
         path: '/contact'
     },
 ]
@@ -21,37 +25,37 @@ export const CATEGORIES = [
     {
         key: 'styles',
         label: 'Стиль',
-        path: '/blog?cat=style',
+        path: '/shop?cat=style',
         image: '/style.png'
     },
     {
         key: 'fashion',
         label: 'Мода',
-        path: '/blog?cat=style',
+        path: '/shop?cat=style',
         image: '/fashion.png'
     },
     {
         key: 'food',
         label: 'Еда',
-        path: '/blog?cat=style',
+        path: '/shop?cat=style',
         image: '/food.png'
     },
     {
         key: 'travel',
         label: 'Путишествия',
-        path: '/blog?cat=style',
+        path: '/shop?cat=style',
         image: '/travel.png'
     },
     {
         key: 'culture',
         label: 'Культура',
-        path: '/blog?cat=style',
+        path: '/shop?cat=style',
         image: '/culture.png'
     },
     {
         key: 'coding',
         label: 'Секс',
-        path: '/blog?cat=style',
+        path: '/shop?cat=style',
         image: '/coding.png'
     },
 ]
