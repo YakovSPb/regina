@@ -3,7 +3,7 @@ import {PrismaAdapter} from "@auth/prisma-adapter";
 import prisma from "./connect";
 
 export const authOptions = {
-    // adapter: PrismaAdapter(prisma),
+    adapter: PrismaAdapter(prisma),
     providers: [
         // VKProvider({
         //     clientId: process.env.VK_CLIENT_ID,
