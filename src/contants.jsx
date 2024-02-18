@@ -86,3 +86,13 @@ export const SOCIAL = [
         path: '/',
     },
 ]
+
+
+export const TRASLATED_CATEGORIES = {
+    styles: 'плюшевые игрушки',
+    fashion: 'игрушки из ткани',
+    culture: 'сказки',
+    coding: 'наборы со сказками',
+    food: 'животные из ткание',
+    travel: 'игрушки ручной работы'
+}
