@@ -15,12 +15,12 @@ const Card = ({card, key}) => (
                 <span className={styles.date}>{card.createdAt.substring(0, 10)} - </span>
                 <span className={styles.category}>{TRASLATED_CATEGORIES[card.catSlug]}</span>
             </div>
-            <Link href={`/post/${card.slug}`}>
+            <Link href={`/posts/${card.slug}`}>
                 <h1>{card.title}</h1>
             </Link>
             <p className={styles.desc}>{card.desc}</p>
             <div className={styles.price}>{card.price} ₽</div>
-            <Link className={styles.link} href={`/post/${card.slug}`}>Чатать далее</Link>
+            <Link className={styles.link} href={`/posts/${card.slug}`}>Чатать далее</Link>
         </div>
     </div>
 );
