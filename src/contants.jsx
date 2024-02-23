@@ -54,7 +54,7 @@ export const CATEGORIES = [
     },
     {
         key: 'coding',
-        label: 'Секс',
+        label: 'Программирование',
         path: '/shop?cat=style',
         image: '/coding.png'
     },

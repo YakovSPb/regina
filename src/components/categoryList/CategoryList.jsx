@@ -19,7 +19,7 @@ const CategoryList = async () => {
         <div className={styles.container}>
             <h1 className={styles.title}>Популярные категории</h1>
             <div className={styles.categories}>
-                {data.map(link => (
+                {data?.map(link => (
                     <Link key={link._id} href={'/shop?cat=style'} className={`${styles.category} ${styles[link.slug]}`}>
                         {link.img && <Image src={link.img} alt={link.title} width={32} height={32} className={styles.image}/>}
                         {link.title}
